@@ -1,0 +1,20 @@
+{
+  "name": "FORGE",
+  "description": "Lead engineer",
+  "department": "Engineering",
+  "reports_to": "ARCHITECT",
+  "url": "a2a://atlas-autonomous-group/forge",
+  "skills": [
+    "implementation",
+    "tests",
+    "docs"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}

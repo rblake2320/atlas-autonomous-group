@@ -1,0 +1,20 @@
+{
+  "name": "SENTINEL",
+  "description": "QA and release assurance",
+  "department": "Quality",
+  "reports_to": "HELM",
+  "url": "a2a://atlas-autonomous-group/sentinel",
+  "skills": [
+    "verification",
+    "release-gate",
+    "audits"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}

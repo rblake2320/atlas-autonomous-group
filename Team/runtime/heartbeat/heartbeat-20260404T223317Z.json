@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-04-04T22:33:17Z",
+  "changed": [
+    [
+      "AT-0006",
+      "in_progress"
+    ],
+    [
+      "AT-0007",
+      "in_progress"
+    ],
+    [
+      "AT-0008",
+      "in_progress"
+    ]
+  ],
+  "counts": {
+    "delivered": 5,
+    "in_progress": 3
+  },
+  "scorecard": {
+    "timestamp": "2026-04-04T22:33:17Z",
+    "status": "production_ready",
+    "score": 90,
+    "delivered": 5,
+    "evidence_coverage": 35,
+    "gate_score": 10,
+    "autonomy_score": 15,
+    "notes": [
+      "Delivered tasks: 5",
+      "Evidence files present: 5"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "servers": [
+    {
+      "name": "filesystem-control",
+      "owner": "PATCH",
+      "category": "local"
+    },
+    {
+      "name": "analytics-stack",
+      "owner": "BEACON",
+      "category": "external"
+    },
+    {
+      "name": "finance-system",
+      "owner": "LEDGER",
+      "category": "high-risk"
+    },
+    {
+      "name": "legal-policy",
+      "owner": "SHIELD",
+      "category": "high-risk"
+    }
+  ]
+}

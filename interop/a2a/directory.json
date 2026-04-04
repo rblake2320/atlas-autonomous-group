@@ -1,0 +1,66 @@
+{
+  "company": "Atlas Autonomous Group",
+  "heartbeat_owner": "HELM",
+  "agents": [
+    {
+      "name": "HELM",
+      "card": "cards/helm.json"
+    },
+    {
+      "name": "VECTOR",
+      "card": "cards/vector.json"
+    },
+    {
+      "name": "ORACLE",
+      "card": "cards/oracle.json"
+    },
+    {
+      "name": "PRISM",
+      "card": "cards/prism.json"
+    },
+    {
+      "name": "ARCHITECT",
+      "card": "cards/architect.json"
+    },
+    {
+      "name": "FORGE",
+      "card": "cards/forge.json"
+    },
+    {
+      "name": "PATCH",
+      "card": "cards/patch.json"
+    },
+    {
+      "name": "SENTINEL",
+      "card": "cards/sentinel.json"
+    },
+    {
+      "name": "WATCHTOWER",
+      "card": "cards/watchtower.json"
+    },
+    {
+      "name": "BEACON",
+      "card": "cards/beacon.json"
+    },
+    {
+      "name": "HUNTER",
+      "card": "cards/hunter.json"
+    },
+    {
+      "name": "ANCHOR",
+      "card": "cards/anchor.json"
+    },
+    {
+      "name": "LEDGER",
+      "card": "cards/ledger.json"
+    },
+    {
+      "name": "SHIELD",
+      "card": "cards/shield.json"
+    },
+    {
+      "name": "PULSE",
+      "card": "cards/pulse.json"
+    }
+  ]
+}

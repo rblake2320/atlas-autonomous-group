@@ -1,0 +1,99 @@
+{
+  "seed_version": "2026-04-04.2",
+  "tasks": [
+    {
+      "id": "AT-0001",
+      "title": "ORACLE define the Atlas operating thesis",
+      "owner": "ORACLE",
+      "depends_on": [],
+      "requires_audit": false,
+      "requires_board_approval": false,
+      "evidence_file": "ATLAS-AT0001-operating-thesis.md",
+      "summary": "Operating thesis and first product target."
+    },
+    {
+      "id": "AT-0002",
+      "title": "PRISM write the launch brief",
+      "owner": "PRISM",
+      "depends_on": [
+        "AT-0001"
+      ],
+      "requires_audit": false,
+      "requires_board_approval": false,
+      "evidence_file": "ATLAS-AT0002-launch-brief.md",
+      "summary": "Launch brief with acceptance criteria and scope."
+    },
+    {
+      "id": "AT-0003",
+      "title": "ARCHITECT review architecture and risk posture",
+      "owner": "ARCHITECT",
+      "depends_on": [
+        "AT-0002"
+      ],
+      "requires_audit": true,
+      "requires_board_approval": false,
+      "evidence_file": "ATLAS-AT0003-architecture-review.md",
+      "summary": "Architecture review, risks, and mitigations."
+    },
+    {
+      "id": "AT-0004",
+      "title": "FORGE produce the Atlas operator pack MVP",
+      "owner": "FORGE",
+      "depends_on": [
+        "AT-0003"
+      ],
+      "requires_audit": false,
+      "requires_board_approval": true,
+      "evidence_file": "ATLAS-AT0004-operator-pack.md",
+      "summary": "Operator pack, command surface, and release notes."
+    },
+    {
+      "id": "AT-0005",
+      "title": "SENTINEL issue release verdict",
+      "owner": "SENTINEL",
+      "depends_on": [
+        "AT-0004"
+      ],
+      "requires_audit": false,
+      "requires_board_approval": false,
+      "evidence_file": "ATLAS-AT0005-release-verdict.md",
+      "summary": "Release verdict and validation summary."
+    },
+    {
+      "id": "AT-0006",
+      "title": "BEACON draft launch messaging",
+      "owner": "BEACON",
+      "depends_on": [
+        "AT-0005"
+      ],
+      "requires_audit": false,
+      "requires_board_approval": false,
+      "evidence_file": "ATLAS-AT0006-launch-messaging.md",
+      "summary": "Launch messaging package."
+    },
+    {
+      "id": "AT-0007",
+      "title": "HUNTER assemble early adopter target list",
+      "owner": "HUNTER",
+      "depends_on": [
+        "AT-0005"
+      ],
+      "requires_audit": false,
+      "requires_board_approval": false,
+      "evidence_file": "ATLAS-AT0007-early-adopters.md",
+      "summary": "Early adopter outbound list."
+    },
+    {
+      "id": "AT-0008",
+      "title": "LEDGER prepare pricing model",
+      "owner": "LEDGER",
+      "depends_on": [
+        "AT-0005"
+      ],
+      "requires_audit": false,
+      "requires_board_approval": false,
+      "evidence_file": "ATLAS-AT0008-pricing-model.md",
+      "summary": "Pricing model and guardrails."
+    }
+  ]
+}

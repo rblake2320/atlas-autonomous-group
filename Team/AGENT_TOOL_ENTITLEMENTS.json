@@ -1,0 +1,242 @@
+{
+  "HELM": {
+    "department": "Executive",
+    "reports_to": "BOARD",
+    "allowed": [
+      "route",
+      "prioritize",
+      "hire",
+      "approve"
+    ],
+    "blocked": [
+      "pricing",
+      "contracts",
+      "security-bypass"
+    ],
+    "must_consult": [
+      "LEDGER",
+      "SHIELD",
+      "WATCHTOWER"
+    ]
+  },
+  "VECTOR": {
+    "department": "Executive",
+    "reports_to": "HELM",
+    "allowed": [
+      "cadence",
+      "scorecards",
+      "blockers"
+    ],
+    "blocked": [
+      "pricing",
+      "legal"
+    ],
+    "must_consult": [
+      "HELM"
+    ]
+  },
+  "ORACLE": {
+    "department": "Strategy",
+    "reports_to": "HELM",
+    "allowed": [
+      "research",
+      "options",
+      "analysis"
+    ],
+    "blocked": [
+      "forecasts-without-ledger"
+    ],
+    "must_consult": [
+      "LEDGER"
+    ]
+  },
+  "PRISM": {
+    "department": "Product",
+    "reports_to": "HELM",
+    "allowed": [
+      "requirements",
+      "roadmaps",
+      "acceptance"
+    ],
+    "blocked": [
+      "date-promises"
+    ],
+    "must_consult": [
+      "HELM",
+      "SENTINEL"
+    ]
+  },
+  "ARCHITECT": {
+    "department": "Engineering",
+    "reports_to": "HELM",
+    "allowed": [
+      "architecture",
+      "interfaces",
+      "migrations"
+    ],
+    "blocked": [
+      "prod-changes"
+    ],
+    "must_consult": [
+      "WATCHTOWER",
+      "PATCH"
+    ]
+  },
+  "FORGE": {
+    "department": "Engineering",
+    "reports_to": "ARCHITECT",
+    "allowed": [
+      "implementation",
+      "tests",
+      "docs"
+    ],
+    "blocked": [
+      "push-main"
+    ],
+    "must_consult": [
+      "SENTINEL"
+    ]
+  },
+  "PATCH": {
+    "department": "Engineering",
+    "reports_to": "ARCHITECT",
+    "allowed": [
+      "deploy",
+      "ci-cd",
+      "runbooks"
+    ],
+    "blocked": [
+      "plaintext-secrets"
+    ],
+    "must_consult": [
+      "WATCHTOWER",
+      "LEDGER"
+    ]
+  },
+  "SENTINEL": {
+    "department": "Quality",
+    "reports_to": "HELM",
+    "allowed": [
+      "verification",
+      "release-gate",
+      "audits"
+    ],
+    "blocked": [
+      "waive-defects"
+    ],
+    "must_consult": [
+      "HELM"
+    ]
+  },
+  "WATCHTOWER": {
+    "department": "Risk",
+    "reports_to": "HELM",
+    "allowed": [
+      "security-review",
+      "threat-model",
+      "risk-gate"
+    ],
+    "blocked": [
+      "direct-prod-change"
+    ],
+    "must_consult": [
+      "HELM",
+      "SHIELD"
+    ]
+  },
+  "BEACON": {
+    "department": "Revenue",
+    "reports_to": "HELM",
+    "allowed": [
+      "campaigns",
+      "messaging",
+      "funnels"
+    ],
+    "blocked": [
+      "unsupported-claims"
+    ],
+    "must_consult": [
+      "LEDGER",
+      "SHIELD"
+    ]
+  },
+  "HUNTER": {
+    "department": "Revenue",
+    "reports_to": "HELM",
+    "allowed": [
+      "pipeline",
+      "qualification",
+      "deal-strategy"
+    ],
+    "blocked": [
+      "pricing-commitments"
+    ],
+    "must_consult": [
+      "LEDGER",
+      "SHIELD"
+    ]
+  },
+  "ANCHOR": {
+    "department": "Revenue",
+    "reports_to": "HELM",
+    "allowed": [
+      "client-comms",
+      "renewals",
+      "escalations"
+    ],
+    "blocked": [
+      "commercial-terms"
+    ],
+    "must_consult": [
+      "HELM",
+      "LEDGER",
+      "SHIELD"
+    ]
+  },
+  "LEDGER": {
+    "department": "Finance",
+    "reports_to": "HELM",
+    "allowed": [
+      "budgets",
+      "pricing-review",
+      "roi"
+    ],
+    "blocked": [
+      "legal-opinions"
+    ],
+    "must_consult": [
+      "HELM"
+    ]
+  },
+  "SHIELD": {
+    "department": "Legal",
+    "reports_to": "HELM",
+    "allowed": [
+      "contract-review",
+      "policy-review",
+      "claim-checks"
+    ],
+    "blocked": [
+      "financial-signoff"
+    ],
+    "must_consult": [
+      "HELM"
+    ]
+  },
+  "PULSE": {
+    "department": "People",
+    "reports_to": "HELM",
+    "allowed": [
+      "hiring",
+      "onboarding",
+      "memory-hygiene"
+    ],
+    "blocked": [
+      "compensation-promises"
+    ],
+    "must_consult": [
+      "HELM",
+      "LEDGER"
+    ]
+  }
+}

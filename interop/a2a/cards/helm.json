@@ -1,0 +1,21 @@
+{
+  "name": "HELM",
+  "description": "CEO / heartbeat orchestrator",
+  "department": "Executive",
+  "reports_to": "BOARD",
+  "url": "a2a://atlas-autonomous-group/helm",
+  "skills": [
+    "route",
+    "prioritize",
+    "hire",
+    "approve"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "default": "hybrid",
+  "profiles": {
+    "cloud_api": {
+      "use_for": [
+        "always_on_tasks",
+        "external_integrations",
+        "nightly_runs"
+      ],
+      "owners": [
+        "HELM",
+        "VECTOR",
+        "BEACON",
+        "HUNTER"
+      ]
+    },
+    "cli_subscription": {
+      "use_for": [
+        "high-context_supervised_execution",
+        "coding_sessions",
+        "manual_reviews"
+      ],
+      "owners": [
+        "HELM",
+        "ARCHITECT",
+        "FORGE",
+        "SENTINEL"
+      ]
+    },
+    "local_llm": {
+      "use_for": [
+        "private_analysis",
+        "offline_fallback",
+        "internal_rnd"
+      ],
+      "owners": [
+        "ORACLE",
+        "ARCHITECT",
+        "WATCHTOWER"
+      ]
+    },
+    "local_slm": {
+      "use_for": [
+        "routing",
+        "classification",
+        "guardrails",
+        "cheap_summaries"
+      ],
+      "owners": [
+        "VECTOR",
+        "PULSE",
+        "SENTINEL"
+      ]
+    }
+  }
+}

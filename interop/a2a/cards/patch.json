@@ -1,0 +1,20 @@
+{
+  "name": "PATCH",
+  "description": "Platform / devops",
+  "department": "Engineering",
+  "reports_to": "ARCHITECT",
+  "url": "a2a://atlas-autonomous-group/patch",
+  "skills": [
+    "deploy",
+    "ci-cd",
+    "runbooks"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}

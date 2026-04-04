@@ -1,0 +1,25 @@
+{
+  "generated_at": "seeded-by-business-lib",
+  "goals": [
+    {
+      "id": "P1",
+      "title": "Launch Atlas operational product",
+      "priority": 1,
+      "success_criteria": [
+        "A five-stage pipeline completes with evidence",
+        "At least one downstream commercial track is unblocked",
+        "Doctor and scorecard reflect live state"
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "Grow early adopter funnel",
+      "priority": 2,
+      "success_criteria": [
+        "Launch messaging ready for BEACON",
+        "Outbound list available for HUNTER",
+        "Pricing memo ready for LEDGER"
+      ]
+    }
+  ]
+}

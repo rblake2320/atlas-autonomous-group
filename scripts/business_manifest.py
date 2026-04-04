@@ -1,0 +1,1 @@
+from business_lib import REP,MAN;files=sorted([p.name for p in REP.glob('*') if p.is_file()]);MAN.write_text('# Delivery Manifest\n\n## Delivered\n'+('\n'.join('- '+f for f in files) if files else '- none')+'\n',encoding='utf-8');print(MAN)

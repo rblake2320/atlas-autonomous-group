@@ -1,0 +1,20 @@
+{
+  "name": "VECTOR",
+  "description": "Chief of staff / cadence manager",
+  "department": "Executive",
+  "reports_to": "HELM",
+  "url": "a2a://atlas-autonomous-group/vector",
+  "skills": [
+    "cadence",
+    "scorecards",
+    "blockers"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}

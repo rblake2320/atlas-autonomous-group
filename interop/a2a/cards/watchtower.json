@@ -1,0 +1,20 @@
+{
+  "name": "WATCHTOWER",
+  "description": "Security and risk auditor",
+  "department": "Risk",
+  "reports_to": "HELM",
+  "url": "a2a://atlas-autonomous-group/watchtower",
+  "skills": [
+    "security-review",
+    "threat-model",
+    "risk-gate"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}

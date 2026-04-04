@@ -1,0 +1,24 @@
+{
+  "env": {
+    "BUSINESS_WORKSPACE_ROOT": "C:\\Users\\techai\\Desktop\\Atlas Autonomous Group",
+    "BUSINESS_ASSET_ROOT": "D:\\AI_Business_Assets\\atlas-autonomous-group",
+    "BUSINESS_HEARTBEAT_SECONDS": "900",
+    "BUSINESS_A2A_DIRECTORY": "C:\\Users\\techai\\Desktop\\Atlas Autonomous Group\\interop\\a2a\\directory.json",
+    "BUSINESS_MCP_SERVERS": "C:\\Users\\techai\\Desktop\\Atlas Autonomous Group\\interop\\mcp\\servers.example.json",
+    "BUSINESS_RUNTIME_PROFILE": "hybrid",
+    "BUSINESS_RUNTIME_PROFILES": "C:\\Users\\techai\\Desktop\\Atlas Autonomous Group\\interop\\runtime\\profiles.example.json"
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"C:\\Users\\techai\\Desktop\\Atlas Autonomous Group\\scripts\\business_heartbeat.py\" summary"
+          }
+        ]
+      }
+    ]
+  }
+}

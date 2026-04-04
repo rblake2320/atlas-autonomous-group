@@ -1,0 +1,20 @@
+{
+  "name": "LEDGER",
+  "description": "CFO / resource controller",
+  "department": "Finance",
+  "reports_to": "HELM",
+  "url": "a2a://atlas-autonomous-group/ledger",
+  "skills": [
+    "budgets",
+    "pricing-review",
+    "roi"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}

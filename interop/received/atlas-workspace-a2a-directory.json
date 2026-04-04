@@ -1,0 +1,16 @@
+{
+  "workspace": "Atlas-Workspace",
+  "version": "0.1.0",
+  "orchestrator": "CEO",
+  "agents": [
+    "CEO",
+    "CTO",
+    "PRODUCT_MANAGER",
+    "FRONTEND",
+    "BACKEND",
+    "DEVOPS",
+    "QA",
+    "DESIGNER"
+  ],
+  "generated_at": "2026-04-04"
+}

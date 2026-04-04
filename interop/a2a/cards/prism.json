@@ -1,0 +1,20 @@
+{
+  "name": "PRISM",
+  "description": "Product director",
+  "department": "Product",
+  "reports_to": "HELM",
+  "url": "a2a://atlas-autonomous-group/prism",
+  "skills": [
+    "requirements",
+    "roadmaps",
+    "acceptance"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}

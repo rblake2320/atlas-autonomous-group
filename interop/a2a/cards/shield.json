@@ -1,0 +1,20 @@
+{
+  "name": "SHIELD",
+  "description": "General counsel",
+  "department": "Legal",
+  "reports_to": "HELM",
+  "url": "a2a://atlas-autonomous-group/shield",
+  "skills": [
+    "contract-review",
+    "policy-review",
+    "claim-checks"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}

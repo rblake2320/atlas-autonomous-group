@@ -1,0 +1,20 @@
+{
+  "name": "HUNTER",
+  "description": "Sales director",
+  "department": "Revenue",
+  "reports_to": "HELM",
+  "url": "a2a://atlas-autonomous-group/hunter",
+  "skills": [
+    "pipeline",
+    "qualification",
+    "deal-strategy"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}

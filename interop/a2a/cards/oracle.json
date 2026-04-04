@@ -1,0 +1,20 @@
+{
+  "name": "ORACLE",
+  "description": "Strategy and research lead",
+  "department": "Strategy",
+  "reports_to": "HELM",
+  "url": "a2a://atlas-autonomous-group/oracle",
+  "skills": [
+    "research",
+    "options",
+    "analysis"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ]
+}
