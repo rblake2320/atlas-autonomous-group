@@ -10,31 +10,31 @@
       "requires_board_approval": false,
       "evidence_file": "ATLAS-AT0001-operating-thesis.md",
       "summary": "Operating thesis and first product target.",
-      "created_at": "2026-04-04T22:32:42Z",
-      "updated_at": "2026-04-04T22:32:49Z",
+      "created_at": "2026-04-04T23:15:09Z",
+      "updated_at": "2026-04-04T23:15:16Z",
       "history": [
         {
-          "ts": "2026-04-04T22:32:42Z",
+          "ts": "2026-04-04T23:15:09Z",
           "event": "seeded"
         },
         {
-          "ts": "2026-04-04T22:32:44Z",
+          "ts": "2026-04-04T23:15:10Z",
           "event": "classified"
         },
         {
-          "ts": "2026-04-04T22:32:45Z",
+          "ts": "2026-04-04T23:15:12Z",
           "event": "assigned:ORACLE"
         },
         {
-          "ts": "2026-04-04T22:32:46Z",
+          "ts": "2026-04-04T23:15:13Z",
           "event": "started"
         },
         {
-          "ts": "2026-04-04T22:32:48Z",
+          "ts": "2026-04-04T23:15:15Z",
           "event": "evidence_created"
         },
         {
-          "ts": "2026-04-04T22:32:49Z",
+          "ts": "2026-04-04T23:15:16Z",
           "event": "delivered"
         }
       ]
@@ -51,31 +51,31 @@
       "requires_board_approval": false,
       "evidence_file": "ATLAS-AT0002-launch-brief.md",
       "summary": "Launch brief with acceptance criteria and scope.",
-      "created_at": "2026-04-04T22:32:42Z",
-      "updated_at": "2026-04-04T22:32:55Z",
+      "created_at": "2026-04-04T23:15:09Z",
+      "updated_at": "2026-04-04T23:15:22Z",
       "history": [
         {
-          "ts": "2026-04-04T22:32:42Z",
+          "ts": "2026-04-04T23:15:09Z",
           "event": "seeded"
         },
         {
-          "ts": "2026-04-04T22:32:49Z",
+          "ts": "2026-04-04T23:15:16Z",
           "event": "classified"
         },
         {
-          "ts": "2026-04-04T22:32:50Z",
+          "ts": "2026-04-04T23:15:18Z",
           "event": "assigned:PRISM"
         },
         {
-          "ts": "2026-04-04T22:32:52Z",
+          "ts": "2026-04-04T23:15:19Z",
           "event": "started"
         },
         {
-          "ts": "2026-04-04T22:32:53Z",
+          "ts": "2026-04-04T23:15:21Z",
           "event": "evidence_created"
         },
         {
-          "ts": "2026-04-04T22:32:55Z",
+          "ts": "2026-04-04T23:15:22Z",
           "event": "delivered"
         }
       ]
@@ -92,35 +92,35 @@
       "requires_board_approval": false,
       "evidence_file": "ATLAS-AT0003-architecture-review.md",
       "summary": "Architecture review, risks, and mitigations.",
-      "created_at": "2026-04-04T22:32:42Z",
-      "updated_at": "2026-04-04T22:33:01Z",
+      "created_at": "2026-04-04T23:15:09Z",
+      "updated_at": "2026-04-04T23:15:30Z",
       "history": [
         {
-          "ts": "2026-04-04T22:32:42Z",
+          "ts": "2026-04-04T23:15:09Z",
           "event": "seeded"
         },
         {
-          "ts": "2026-04-04T22:32:55Z",
+          "ts": "2026-04-04T23:15:22Z",
           "event": "classified"
         },
         {
-          "ts": "2026-04-04T22:32:56Z",
+          "ts": "2026-04-04T23:15:24Z",
           "event": "assigned:ARCHITECT"
         },
         {
-          "ts": "2026-04-04T22:32:57Z",
+          "ts": "2026-04-04T23:15:25Z",
           "event": "started"
         },
         {
-          "ts": "2026-04-04T22:32:59Z",
+          "ts": "2026-04-04T23:15:27Z",
           "event": "evidence_created"
         },
         {
-          "ts": "2026-04-04T22:33:00Z",
+          "ts": "2026-04-04T23:15:28Z",
           "event": "audit_requested"
         },
         {
-          "ts": "2026-04-04T22:33:01Z",
+          "ts": "2026-04-04T23:15:30Z",
           "event": "audit_passed"
         }
       ]
@@ -137,35 +137,35 @@
       "requires_board_approval": true,
       "evidence_file": "ATLAS-AT0004-operator-pack.md",
       "summary": "Operator pack, command surface, and release notes.",
-      "created_at": "2026-04-04T22:32:42Z",
-      "updated_at": "2026-04-04T22:33:08Z",
+      "created_at": "2026-04-04T23:15:09Z",
+      "updated_at": "2026-04-04T23:15:37Z",
       "history": [
         {
-          "ts": "2026-04-04T22:32:42Z",
+          "ts": "2026-04-04T23:15:09Z",
           "event": "seeded"
         },
         {
-          "ts": "2026-04-04T22:33:01Z",
+          "ts": "2026-04-04T23:15:30Z",
           "event": "classified"
         },
         {
-          "ts": "2026-04-04T22:33:03Z",
+          "ts": "2026-04-04T23:15:31Z",
           "event": "assigned:FORGE"
         },
         {
-          "ts": "2026-04-04T22:33:04Z",
+          "ts": "2026-04-04T23:15:33Z",
           "event": "started"
         },
         {
-          "ts": "2026-04-04T22:33:05Z",
+          "ts": "2026-04-04T23:15:34Z",
           "event": "evidence_created"
         },
         {
-          "ts": "2026-04-04T22:33:07Z",
+          "ts": "2026-04-04T23:15:36Z",
           "event": "approval_requested"
         },
         {
-          "ts": "2026-04-04T22:33:08Z",
+          "ts": "2026-04-04T23:15:37Z",
           "event": "board_approved"
         }
       ]
@@ -182,31 +182,31 @@
       "requires_board_approval": false,
       "evidence_file": "ATLAS-AT0005-release-verdict.md",
       "summary": "Release verdict and validation summary.",
-      "created_at": "2026-04-04T22:32:42Z",
-      "updated_at": "2026-04-04T22:33:14Z",
+      "created_at": "2026-04-04T23:15:09Z",
+      "updated_at": "2026-04-04T23:15:43Z",
       "history": [
         {
-          "ts": "2026-04-04T22:32:42Z",
+          "ts": "2026-04-04T23:15:09Z",
           "event": "seeded"
         },
         {
-          "ts": "2026-04-04T22:33:08Z",
+          "ts": "2026-04-04T23:15:37Z",
           "event": "classified"
         },
         {
-          "ts": "2026-04-04T22:33:10Z",
+          "ts": "2026-04-04T23:15:39Z",
           "event": "assigned:SENTINEL"
         },
         {
-          "ts": "2026-04-04T22:33:11Z",
+          "ts": "2026-04-04T23:15:40Z",
           "event": "started"
         },
         {
-          "ts": "2026-04-04T22:33:12Z",
+          "ts": "2026-04-04T23:15:41Z",
           "event": "evidence_created"
         },
         {
-          "ts": "2026-04-04T22:33:14Z",
+          "ts": "2026-04-04T23:15:43Z",
           "event": "delivered"
         }
       ]
@@ -223,31 +223,31 @@
       "requires_board_approval": false,
       "evidence_file": "ATLAS-AT0006-launch-messaging.md",
       "summary": "Launch messaging package.",
-      "created_at": "2026-04-04T22:32:42Z",
-      "updated_at": "2026-04-04T22:33:19Z",
+      "created_at": "2026-04-04T23:15:09Z",
+      "updated_at": "2026-04-04T23:15:49Z",
       "history": [
         {
-          "ts": "2026-04-04T22:32:42Z",
+          "ts": "2026-04-04T23:15:09Z",
           "event": "seeded"
         },
         {
-          "ts": "2026-04-04T22:33:14Z",
+          "ts": "2026-04-04T23:15:43Z",
           "event": "classified"
         },
         {
-          "ts": "2026-04-04T22:33:15Z",
+          "ts": "2026-04-04T23:15:44Z",
           "event": "assigned:BEACON"
         },
         {
-          "ts": "2026-04-04T22:33:17Z",
+          "ts": "2026-04-04T23:15:46Z",
           "event": "started"
         },
         {
-          "ts": "2026-04-04T22:33:18Z",
+          "ts": "2026-04-04T23:15:47Z",
           "event": "evidence_created"
         },
         {
-          "ts": "2026-04-04T22:33:19Z",
+          "ts": "2026-04-04T23:15:49Z",
           "event": "delivered"
         }
       ]
@@ -264,31 +264,31 @@
       "requires_board_approval": false,
       "evidence_file": "ATLAS-AT0007-early-adopters.md",
       "summary": "Early adopter outbound list.",
-      "created_at": "2026-04-04T22:32:42Z",
-      "updated_at": "2026-04-04T22:33:19Z",
+      "created_at": "2026-04-04T23:15:09Z",
+      "updated_at": "2026-04-04T23:15:49Z",
       "history": [
         {
-          "ts": "2026-04-04T22:32:42Z",
+          "ts": "2026-04-04T23:15:09Z",
           "event": "seeded"
         },
         {
-          "ts": "2026-04-04T22:33:14Z",
+          "ts": "2026-04-04T23:15:43Z",
           "event": "classified"
         },
         {
-          "ts": "2026-04-04T22:33:15Z",
+          "ts": "2026-04-04T23:15:44Z",
           "event": "assigned:HUNTER"
         },
         {
-          "ts": "2026-04-04T22:33:17Z",
+          "ts": "2026-04-04T23:15:46Z",
           "event": "started"
         },
         {
-          "ts": "2026-04-04T22:33:18Z",
+          "ts": "2026-04-04T23:15:47Z",
           "event": "evidence_created"
         },
         {
-          "ts": "2026-04-04T22:33:19Z",
+          "ts": "2026-04-04T23:15:49Z",
           "event": "delivered"
         }
       ]
@@ -305,31 +305,31 @@
       "requires_board_approval": false,
       "evidence_file": "ATLAS-AT0008-pricing-model.md",
       "summary": "Pricing model and guardrails.",
-      "created_at": "2026-04-04T22:32:42Z",
-      "updated_at": "2026-04-04T22:33:19Z",
+      "created_at": "2026-04-04T23:15:09Z",
+      "updated_at": "2026-04-04T23:15:49Z",
       "history": [
         {
-          "ts": "2026-04-04T22:32:42Z",
+          "ts": "2026-04-04T23:15:09Z",
           "event": "seeded"
         },
         {
-          "ts": "2026-04-04T22:33:14Z",
+          "ts": "2026-04-04T23:15:43Z",
           "event": "classified"
         },
         {
-          "ts": "2026-04-04T22:33:15Z",
+          "ts": "2026-04-04T23:15:44Z",
           "event": "assigned:LEDGER"
         },
         {
-          "ts": "2026-04-04T22:33:17Z",
+          "ts": "2026-04-04T23:15:46Z",
           "event": "started"
         },
         {
-          "ts": "2026-04-04T22:33:18Z",
+          "ts": "2026-04-04T23:15:47Z",
           "event": "evidence_created"
         },
         {
-          "ts": "2026-04-04T22:33:19Z",
+          "ts": "2026-04-04T23:15:49Z",
           "event": "delivered"
         }
       ]

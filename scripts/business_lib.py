@@ -165,7 +165,7 @@ def now() -> str:
 
 
 def stamp() -> str:
-    return now().replace(":", "").replace("-", "")
+    return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
 
 
 def slug(text: str) -> str:

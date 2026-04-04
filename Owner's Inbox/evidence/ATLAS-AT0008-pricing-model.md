@@ -1,6 +1,6 @@
 # LEDGER Deliverable — AT-0008
 **Task:** LEDGER prepare pricing model
-**Delivered:** 2026-04-04T22:33:18Z
+**Delivered:** 2026-04-04T23:15:47Z
 
 ## Outcome
 Pricing model and guardrails.
