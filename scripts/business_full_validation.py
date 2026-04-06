@@ -17,6 +17,7 @@ PRECHECKS = [
     [sys.executable, str(SCRIPT_DIR / 'business_worktree.py'), 'summary'],
     [sys.executable, str(SCRIPT_DIR / 'business_event_audit.py')],
     [sys.executable, str(SCRIPT_DIR / 'business_runtime.py'), 'summary'],
+    [sys.executable, str(SCRIPT_DIR / 'business_scorecard.py')],
     [sys.executable, str(SCRIPT_DIR / 'business_learning_review.py')],
     [sys.executable, str(SCRIPT_DIR / 'business_market_review.py')],
     [sys.executable, str(SCRIPT_DIR / 'business_gap_meter.py'), 'status'],

@@ -1,48 +1,48 @@
 {
-  "timestamp": "2026-04-06T07:19:39Z",
+  "timestamp": "2026-04-06T17:12:26Z",
   "status": "PASS",
   "active_agents": 18,
   "inactive_agents": 5,
   "agents": [
     {
       "agent": "HELM",
-      "last_activity": "2026-04-06T04:47:10Z",
-      "age_hours": 2.54,
+      "last_activity": "2026-04-06T17:12:14Z",
+      "age_hours": 0.0,
       "status": "active",
       "critical": true
     },
     {
       "agent": "VECTOR",
       "last_activity": "2026-04-04T20:02:25Z",
-      "age_hours": 35.29,
+      "age_hours": 45.17,
       "status": "active",
       "critical": true
     },
     {
       "agent": "ORACLE",
       "last_activity": "2026-04-04T19:44:47Z",
-      "age_hours": 35.58,
+      "age_hours": 45.46,
       "status": "active",
       "critical": false
     },
     {
       "agent": "PRISM",
       "last_activity": "2026-04-04T19:44:52Z",
-      "age_hours": 35.58,
+      "age_hours": 45.46,
       "status": "active",
       "critical": false
     },
     {
       "agent": "ARCHITECT",
       "last_activity": "2026-04-04T19:44:59Z",
-      "age_hours": 35.58,
+      "age_hours": 45.46,
       "status": "active",
       "critical": false
     },
     {
       "agent": "FORGE",
       "last_activity": "2026-04-04T19:45:06Z",
-      "age_hours": 35.58,
+      "age_hours": 45.46,
       "status": "active",
       "critical": true
     },
@@ -55,7 +55,7 @@
     },
     {
       "agent": "INSPECTOR",
-      "last_activity": "2026-04-06T07:19:38Z",
+      "last_activity": "2026-04-06T17:12:25Z",
       "age_hours": 0.0,
       "status": "active",
       "critical": true
@@ -63,7 +63,7 @@
     {
       "agent": "SENTINEL",
       "last_activity": "2026-04-04T19:50:11Z",
-      "age_hours": 35.49,
+      "age_hours": 45.37,
       "status": "active",
       "critical": true
     },
@@ -76,14 +76,14 @@
     },
     {
       "agent": "WIRING",
-      "last_activity": "2026-04-06T07:19:33Z",
+      "last_activity": "2026-04-06T17:12:20Z",
       "age_hours": 0.0,
       "status": "active",
       "critical": true
     },
     {
       "agent": "SCHEMA",
-      "last_activity": "2026-04-06T07:19:35Z",
+      "last_activity": "2026-04-06T17:12:22Z",
       "age_hours": 0.0,
       "status": "active",
       "critical": true
@@ -91,14 +91,14 @@
     {
       "agent": "BEACON",
       "last_activity": "2026-04-04T19:50:17Z",
-      "age_hours": 35.49,
+      "age_hours": 45.37,
       "status": "active",
       "critical": false
     },
     {
       "agent": "HUNTER",
       "last_activity": "2026-04-04T19:50:17Z",
-      "age_hours": 35.49,
+      "age_hours": 45.37,
       "status": "active",
       "critical": false
     },
@@ -112,7 +112,7 @@
     {
       "agent": "LEDGER",
       "last_activity": "2026-04-04T19:50:17Z",
-      "age_hours": 35.49,
+      "age_hours": 45.37,
       "status": "active",
       "critical": false
     },
@@ -132,35 +132,35 @@
     },
     {
       "agent": "BENCH",
-      "last_activity": "2026-04-06T07:19:29Z",
+      "last_activity": "2026-04-06T17:12:16Z",
       "age_hours": 0.0,
       "status": "active",
       "critical": false
     },
     {
       "agent": "STEWARD",
-      "last_activity": "2026-04-06T07:19:28Z",
+      "last_activity": "2026-04-06T17:12:13Z",
       "age_hours": 0.0,
       "status": "active",
       "critical": false
     },
     {
       "agent": "MARKET",
-      "last_activity": "2026-04-06T07:19:30Z",
+      "last_activity": "2026-04-06T17:12:17Z",
       "age_hours": 0.0,
       "status": "active",
       "critical": false
     },
     {
       "agent": "REGENT",
-      "last_activity": "2026-04-06T07:19:26Z",
+      "last_activity": "2026-04-06T17:12:11Z",
       "age_hours": 0.0,
       "status": "active",
       "critical": true
     },
     {
       "agent": "VERIFY",
-      "last_activity": "2026-04-06T07:19:32Z",
+      "last_activity": "2026-04-06T17:12:19Z",
       "age_hours": 0.0,
       "status": "active",
       "critical": true
