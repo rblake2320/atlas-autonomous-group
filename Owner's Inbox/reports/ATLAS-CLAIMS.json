@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-04-06T07:24:06Z",
+  "status": "PASS",
+  "claims": [
+    {
+      "id": "scorecard_fresh",
+      "evidence": "Team/runtime/state/scorecard.json",
+      "ttl_hours": 6,
+      "age_hours": 2.62,
+      "fresh": true,
+      "status": "verified"
+    },
+    {
+      "id": "doctor_pass",
+      "evidence": "Owner's Inbox/reports/ATLAS-DOCTOR.json",
+      "ttl_hours": 6,
+      "age_hours": 0.08,
+      "fresh": true,
+      "status": "verified"
+    },
+    {
+      "id": "full_validation_pass",
+      "evidence": "Owner's Inbox/reports/ATLAS-FULL-VALIDATION.json",
+      "ttl_hours": 6,
+      "age_hours": 0.07,
+      "fresh": true,
+      "status": "verified"
+    },
+    {
+      "id": "runtime_rigor_current",
+      "evidence": "Team/runtime/state/event_audit.json",
+      "ttl_hours": 24,
+      "age_hours": 0.08,
+      "fresh": true,
+      "status": "verified"
+    },
+    {
+      "id": "runtime_uptime_current",
+      "evidence": "Team/runtime/state/runtime_audit.json",
+      "ttl_hours": 6,
+      "age_hours": 0.08,
+      "fresh": true,
+      "status": "verified"
+    },
+    {
+      "id": "gap_meter_current",
+      "evidence": "Owner's Inbox/reports/ATLAS-GAP-METER.md",
+      "ttl_hours": 24,
+      "age_hours": 0.08,
+      "fresh": true,
+      "status": "verified"
+    }
+  ],
+  "problems": []
+}

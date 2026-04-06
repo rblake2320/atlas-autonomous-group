@@ -1,6 +1,6 @@
 # Delivery Manifest
 
-Updated: 2026-04-04T23:15:56Z
+Updated: 2026-04-05T18:24:20Z
 
 - AT-0001 | ORACLE | ATLAS-AT0001-operating-thesis.md
 - AT-0002 | PRISM | ATLAS-AT0002-launch-brief.md

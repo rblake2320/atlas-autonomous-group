@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-04-04T19:44:54Z",
+  "changed": [
+    [
+      "AT-0003",
+      "assigned"
+    ]
+  ],
+  "counts": {
+    "assigned": 1,
+    "delivered": 2,
+    "new": 5
+  },
+  "scorecard": {
+    "timestamp": "2026-04-04T19:44:54Z",
+    "status": "developing",
+    "score": 62,
+    "delivered": 2,
+    "evidence_coverage": 35,
+    "gate_score": 0,
+    "autonomy_score": 15,
+    "notes": [
+      "Delivered tasks: 2",
+      "Evidence files present: 2"
+    ]
+  }
+}

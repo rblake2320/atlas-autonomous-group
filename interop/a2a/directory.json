@@ -61,6 +61,38 @@
     {
       "name": "PULSE",
       "card": "cards/pulse.json"
+    },
+    {
+      "name": "WIRING",
+      "card": "cards/wiring.json"
+    },
+    {
+      "name": "SCHEMA",
+      "card": "cards/schema.json"
+    },
+    {
+      "name": "BENCH",
+      "card": "cards/bench.json"
+    },
+    {
+      "name": "STEWARD",
+      "card": "cards/steward.json"
+    },
+    {
+      "name": "MARKET",
+      "card": "cards/market.json"
+    },
+    {
+      "name": "REGENT",
+      "card": "cards/regent.json"
+    },
+    {
+      "name": "VERIFY",
+      "card": "cards/verify.json"
+    },
+    {
+      "name": "INSPECTOR",
+      "card": "cards/inspector.json"
     }
   ]
 }

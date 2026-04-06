@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-04-04T19:50:09Z",
+  "changed": [
+    [
+      "AT-0005",
+      "in_progress"
+    ]
+  ],
+  "counts": {
+    "delivered": 4,
+    "in_progress": 1,
+    "new": 3
+  },
+  "scorecard": {
+    "timestamp": "2026-04-04T19:50:09Z",
+    "status": "developing",
+    "score": 84,
+    "delivered": 4,
+    "evidence_coverage": 35,
+    "gate_score": 10,
+    "autonomy_score": 15,
+    "notes": [
+      "Delivered tasks: 4",
+      "Evidence files present: 4"
+    ]
+  }
+}

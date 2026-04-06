@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-04-04T20:02:25Z",
+  "changed": [],
+  "counts": {
+    "delivered": 8
+  },
+  "scorecard": {
+    "timestamp": "2026-04-04T20:02:25Z",
+    "status": "production_ready",
+    "score": 90,
+    "delivered": 8,
+    "evidence_coverage": 35,
+    "gate_score": 10,
+    "autonomy_score": 15,
+    "notes": [
+      "Delivered tasks: 8",
+      "Evidence files present: 8"
+    ]
+  }
+}

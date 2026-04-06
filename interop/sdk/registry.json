@@ -1,0 +1,41 @@
+{
+  "default_runtime_profile": "hybrid",
+  "sdk_registry": [
+    {
+      "name": "mcp_sdk",
+      "owner": "WIRING",
+      "purpose": "Tool and resource integration via MCP servers",
+      "runtime_profile": "local_slm",
+      "status": "registered",
+      "entrypoint": "interop/mcp/servers.example.json",
+      "reviewed_by": "SCHEMA"
+    },
+    {
+      "name": "a2a_protocol",
+      "owner": "WIRING",
+      "purpose": "Agent-to-agent cards and directory wiring",
+      "runtime_profile": "cloud_api",
+      "status": "registered",
+      "entrypoint": "interop/a2a/directory.json",
+      "reviewed_by": "SCHEMA"
+    },
+    {
+      "name": "runtime_profiles",
+      "owner": "REGENT",
+      "purpose": "Route work across cloud, CLI, local LLM, and local SLM paths",
+      "runtime_profile": "hybrid",
+      "status": "registered",
+      "entrypoint": "interop/runtime/profiles.example.json",
+      "reviewed_by": "SCHEMA"
+    },
+    {
+      "name": "agent_sdk_patterns",
+      "owner": "WIRING",
+      "purpose": "Shared handoff, guardrail, and verifier workflow patterns",
+      "runtime_profile": "cli_subscription",
+      "status": "registered",
+      "entrypoint": "interop/sdk/workflow-patterns.md",
+      "reviewed_by": "SCHEMA"
+    }
+  ]
+}

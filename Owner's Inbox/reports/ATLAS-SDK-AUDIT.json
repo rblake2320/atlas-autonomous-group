@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "sdk_entries": 4,
+  "runtime_profiles": [
+    "cli_subscription",
+    "cloud_api",
+    "local_llm",
+    "local_slm"
+  ],
+  "problems": []
+}

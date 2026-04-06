@@ -1,0 +1,84 @@
+{
+  "name": "VERIFY",
+  "description": "Independent replay and interop verifier",
+  "department": "Verification",
+  "reports_to": "HELM",
+  "url": "a2a://atlas-autonomous-group/verify",
+  "skills": [
+    "replay",
+    "verify",
+    "challenge",
+    "certify"
+  ],
+  "inputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "outputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "contract_version": "atlas.a2a.v1",
+  "input_schema": {
+    "type": "object",
+    "required": [
+      "request"
+    ],
+    "properties": {
+      "request": {
+        "type": "string"
+      },
+      "context": {
+        "type": "object"
+      },
+      "task_id": {
+        "type": "string"
+      },
+      "artifacts": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "output_schema": {
+    "type": "object",
+    "required": [
+      "status",
+      "summary"
+    ],
+    "properties": {
+      "status": {
+        "type": "string",
+        "enum": [
+          "ok",
+          "needs_input",
+          "blocked",
+          "failed"
+        ]
+      },
+      "summary": {
+        "type": "string"
+      },
+      "artifacts": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "next_actions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "decisions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

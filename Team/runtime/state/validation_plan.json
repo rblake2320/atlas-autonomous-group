@@ -1,0 +1,49 @@
+{
+  "claims": [
+    {
+      "id": "scorecard_fresh",
+      "ttl_hours": 6,
+      "evidence": "Team/runtime/state/scorecard.json",
+      "must_equal": {
+        "status": "production_ready"
+      }
+    },
+    {
+      "id": "doctor_pass",
+      "ttl_hours": 6,
+      "evidence": "Owner's Inbox/reports/ATLAS-DOCTOR.json",
+      "must_equal": {
+        "status": "PASS"
+      }
+    },
+    {
+      "id": "full_validation_pass",
+      "ttl_hours": 6,
+      "evidence": "Owner's Inbox/reports/ATLAS-FULL-VALIDATION.json",
+      "must_equal": {
+        "status": "PASS"
+      }
+    },
+    {
+      "id": "runtime_rigor_current",
+      "ttl_hours": 24,
+      "evidence": "Team/runtime/state/event_audit.json",
+      "must_equal": {
+        "status": "PASS"
+      }
+    },
+    {
+      "id": "runtime_uptime_current",
+      "ttl_hours": 6,
+      "evidence": "Team/runtime/state/runtime_audit.json",
+      "min_numeric": {
+        "continuous_hours": 0
+      }
+    },
+    {
+      "id": "gap_meter_current",
+      "ttl_hours": 24,
+      "evidence": "Owner's Inbox/reports/ATLAS-GAP-METER.md"
+    }
+  ]
+}

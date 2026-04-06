@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-04-06T07:19:40Z",
+  "status": "PASS",
+  "scenarios": [
+    {
+      "name": "tampered_event_chain_detected",
+      "passed": true
+    },
+    {
+      "name": "missing_input_schema_detected",
+      "passed": true
+    },
+    {
+      "name": "stale_claim_detected",
+      "passed": true
+    }
+  ],
+  "problems": []
+}

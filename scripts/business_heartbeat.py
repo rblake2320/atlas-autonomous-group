@@ -10,7 +10,6 @@ from business_lib import (
     now,
     read_tasks,
     seed_pipeline,
-    stamp,
     update_manifest,
     write_board_decision,
     write_evidence,
@@ -105,7 +104,7 @@ def pulse_once() -> dict:
         "counts": {state: sum(1 for task in tasks if task["status"] == state) for state in sorted({task["status"] for task in tasks})},
         "scorecard": scorecard,
     }
-    path = HB / f"heartbeat-{stamp()}.json"
+    path = HB / f"heartbeat-{now().replace(':', '').replace('-', '')}.json"
     dump_json(path, summary)
     return {"path": str(path), "summary": summary}
 

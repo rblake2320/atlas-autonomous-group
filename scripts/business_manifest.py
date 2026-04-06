@@ -1,18 +1,20 @@
 from __future__ import annotations
 
-from business_lib import MANIFEST, OWNER_EVIDENCE, now
+from business_lib import MANIFEST, OWNER_EVIDENCE
 
 
-def build_manifest() -> str:
-    files = sorted(p.name for p in OWNER_EVIDENCE.glob("*") if p.is_file())
-    lines = ["# Delivery Manifest", "", f"Updated: {now()}", "", "## Delivered"]
+def main() -> int:
+    files = sorted(path.name for path in OWNER_EVIDENCE.glob('*') if path.is_file())
+    body = ['# Delivery Manifest', '', '## Delivered']
     if files:
-        lines.extend(f"- {name}" for name in files)
+        body.extend(f'- {name}' for name in files)
     else:
-        lines.append("- none")
-    return "\n".join(lines) + "\n"
-
-
-if __name__ == "__main__":
-    MANIFEST.write_text(build_manifest(), encoding="utf-8")
+        body.append('- none')
+    body.append('')
+    MANIFEST.write_text('\n'.join(body), encoding='utf-8')
     print(MANIFEST)
+    return 0
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-04-04T19:44:47Z",
+  "changed": [
+    [
+      "AT-0001",
+      "delivered"
+    ],
+    [
+      "AT-0002",
+      "classified"
+    ]
+  ],
+  "counts": {
+    "classified": 1,
+    "delivered": 1,
+    "new": 6
+  },
+  "scorecard": {
+    "timestamp": "2026-04-04T19:44:47Z",
+    "status": "developing",
+    "score": 56,
+    "delivered": 1,
+    "evidence_coverage": 35,
+    "gate_score": 0,
+    "autonomy_score": 15,
+    "notes": [
+      "Delivered tasks: 1",
+      "Evidence files present: 1"
+    ]
+  }
+}

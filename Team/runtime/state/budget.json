@@ -1,0 +1,7 @@
+{
+  "currency": "USD",
+  "monthly_limit": 1200,
+  "alert_threshold": 0.8,
+  "spent": 0,
+  "ledger": []
+}

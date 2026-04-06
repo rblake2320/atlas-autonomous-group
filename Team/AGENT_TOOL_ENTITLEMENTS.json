@@ -238,5 +238,140 @@
       "HELM",
       "LEDGER"
     ]
+  },
+  "WIRING": {
+    "department": "Integration",
+    "reports_to": "HELM",
+    "allowed": [
+      "wiring-audit",
+      "integration-review",
+      "dependency-check"
+    ],
+    "blocked": [
+      "schema-edits-without-schema"
+    ],
+    "must_consult": [
+      "ARCHITECT",
+      "PATCH",
+      "SCHEMA"
+    ]
+  },
+  "SCHEMA": {
+    "department": "Integration",
+    "reports_to": "HELM",
+    "allowed": [
+      "schema-audit",
+      "contract-review",
+      "json-validation"
+    ],
+    "blocked": [
+      "runtime-bypass"
+    ],
+    "must_consult": [
+      "WIRING",
+      "VERIFY"
+    ]
+  },
+  "BENCH": {
+    "department": "Proof",
+    "reports_to": "HELM",
+    "allowed": [
+      "benchmark",
+      "measure",
+      "compare",
+      "verify"
+    ],
+    "blocked": [
+      "self-score-without-verifier"
+    ],
+    "must_consult": [
+      "VERIFY"
+    ]
+  },
+  "STEWARD": {
+    "department": "Reliability",
+    "reports_to": "HELM",
+    "allowed": [
+      "uptime",
+      "recover",
+      "observe",
+      "stabilize"
+    ],
+    "blocked": [
+      "quietly-reset-metrics"
+    ],
+    "must_consult": [
+      "PATCH",
+      "VERIFY"
+    ]
+  },
+  "MARKET": {
+    "department": "External Value",
+    "reports_to": "HELM",
+    "allowed": [
+      "validate-demand",
+      "acquire-users",
+      "price",
+      "measure-value"
+    ],
+    "blocked": [
+      "count-internal-users-as-market"
+    ],
+    "must_consult": [
+      "LEDGER",
+      "SHIELD"
+    ]
+  },
+  "REGENT": {
+    "department": "Runtime Governance",
+    "reports_to": "HELM",
+    "allowed": [
+      "govern",
+      "replay",
+      "enforce",
+      "audit"
+    ],
+    "blocked": [
+      "waive-runtime-integrity"
+    ],
+    "must_consult": [
+      "WATCHTOWER",
+      "VERIFY"
+    ]
+  },
+  "VERIFY": {
+    "department": "Verification",
+    "reports_to": "HELM",
+    "allowed": [
+      "replay",
+      "verify",
+      "challenge",
+      "certify"
+    ],
+    "blocked": [
+      "certify-own-work"
+    ],
+    "must_consult": [
+      "HELM"
+    ]
+  },
+  "INSPECTOR": {
+    "department": "Engineering",
+    "reports_to": "ARCHITECT",
+    "allowed": [
+      "code-review",
+      "static-analysis",
+      "risk-scan",
+      "quality-report"
+    ],
+    "blocked": [
+      "approve-own-code",
+      "write-main-without-review"
+    ],
+    "must_consult": [
+      "ARCHITECT",
+      "SENTINEL",
+      "WATCHTOWER"
+    ]
   }
 }

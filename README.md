@@ -1,38 +1,46 @@
 # Atlas Autonomous Group
 
-Atlas Autonomous Group is a standalone multi-agent business workspace intended to be cloned and tested by other humans or AI systems. It includes a durable task pipeline, heartbeat-driven progression, approvals, scorecarding, doctor checks, A2A cards, MCP examples, and an interop receipt from a cross-system handoff.
+A future-proof AI business workspace with a proactive CEO heartbeat, hard finance/legal/security gates, durable task records, a real budget ledger, optional git worktree isolation, a measured gap-closing program, dedicated wiring/schema review agents, an SDK registry, a code-inspection agent, and MCP/A2A interoperability.
 
-## What this repo contains
-- `CLAUDE.md` and `.claude/agents/` for the workspace-facing agent layer
-- `scripts/` for the runnable operating loop
-- `Team/runtime/state/` for durable task and scorecard state
-- `Owner's Inbox/evidence/` for generated deliverables and interop receipts
-- `interop/` for A2A and MCP-facing machine-readable surfaces
+## Departments
+- Executive: HELM, VECTOR
+- Strategy/Product: ORACLE, PRISM
+- Engineering: ARCHITECT, FORGE, PATCH, INSPECTOR
+- Quality/Risk: SENTINEL, WATCHTOWER
+- Integration: WIRING, SCHEMA
+- Revenue: BEACON, HUNTER, ANCHOR
+- Finance/Legal: LEDGER, SHIELD
+- People/Knowledge: PULSE
+- Proof/Reliability/Verification: BENCH, STEWARD, MARKET, REGENT, VERIFY
 
-## Core Commands
-```powershell
-python scripts/business_task_cli.py seed
-python scripts/business_heartbeat.py run
-python scripts/business_task_cli.py board
-python scripts/business_scorecard.py
-python scripts/business_doctor.py
-python scripts/business_full_validation.py
-```
+## Why it should stay productive
+- HELM owns heartbeat reviews instead of waiting passively.
+- VECTOR hunts idle agents and stale blockers.
+- Every work item moves through explicit gates.
+- LEDGER owns a real budget/quota ledger instead of budget being documentation only.
+- Parallel coding work can be isolated through optional git worktree registrations.
+- INSPECTOR reviews the Python code surface for compile errors and risky patterns before calling the codebase healthy.
+- WIRING scrubs all wired surfaces so adapters, cards, entitlements, runtime profiles, and SDK registry entries stay aligned.
+- SCHEMA reviews machine-readable contracts so JSON, cards, SDK contracts, and runtime state stay sane.
+- BENCH, STEWARD, MARKET, REGENT, and VERIFY own the remaining proof gaps with measurable baselines and targets.
+- Heavy assets live in D:\AI_Business_Assets\atlas-autonomous-group; control state stays here.
 
-## Reproduce from a clean state
-```powershell
-python scripts/business_replay_demo.py
-```
+## Runtime Flexibility
+- Supports cloud APIs, CLI adapters, local LLMs, and local SLMs.
+- Uses `interop/runtime/profiles.example.json` for routing ownership.
+- Uses `interop/sdk/registry.json` and `interop/sdk/contracts.json` to document and validate SDK-backed surfaces.
+- Use local SLMs for cheap routing and guardrails; use larger cloud or CLI-backed models for high-context work.
 
-## Success Criteria
-A valid replay should produce:
-- a delivered eight-task pipeline
-- `production_ready` scorecard state
-- `PASS` from `business_doctor.py`
-- `FULL VALIDATION PASS` from `business_full_validation.py`
-
-## Interop Proof
-This repo includes Atlas-side evidence of a bidirectional interop loop with a separate autonomous system. The receipt is in:
-- `Owner's Inbox/evidence/ATLAS-INTEROP-RECEIPT.md`
-
-For full test instructions, see `TESTING.md`.
+## Operational Commands
+- `python scripts/business_heartbeat.py run`
+- `python scripts/business_task_cli.py board`
+- `python scripts/business_scorecard.py`
+- `python scripts/business_budget.py status`
+- `python scripts/business_worktree.py summary`
+- `python scripts/business_gap_meter.py status`
+- `python scripts/business_wiring_audit.py`
+- `python scripts/business_schema_audit.py`
+- `python scripts/business_sdk_audit.py`
+- `python scripts/business_code_inspector.py`
+- `python scripts/business_doctor.py`
+- `python scripts/business_full_validation.py`

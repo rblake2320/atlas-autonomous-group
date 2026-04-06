@@ -1,0 +1,65 @@
+{
+  "generated_at": "seeded-by-business-lib",
+  "gaps": [
+    {
+      "id": "runtime_rigor",
+      "title": "Replay and tamper-proof runtime rigor",
+      "owner": "REGENT",
+      "metric": "rigor_score",
+      "baseline": 42,
+      "current": 90,
+      "target": 90,
+      "status": "verified",
+      "verifier_cmd": "python scripts/business_event_audit.py",
+      "evidence_path": "Team/runtime/state/event_audit.json"
+    },
+    {
+      "id": "autonomy_hours",
+      "title": "Long-horizon autonomous runtime",
+      "owner": "STEWARD",
+      "metric": "hours_without_manual_rescue",
+      "baseline": 0,
+      "current": 3.84,
+      "target": 24,
+      "status": "active",
+      "verifier_cmd": "python scripts/business_runtime.py summary",
+      "evidence_path": "Team/runtime/state/runtime_audit.json"
+    },
+    {
+      "id": "learning_proof",
+      "title": "Measured before/after learning improvement",
+      "owner": "BENCH",
+      "metric": "verified_learning_deltas",
+      "baseline": 0,
+      "current": 0,
+      "target": 5,
+      "status": "active",
+      "verifier_cmd": "python scripts/business_learning_review.py",
+      "evidence_path": "Owner's Inbox/reports/ATLAS-LEARNING-REVIEW.md"
+    },
+    {
+      "id": "external_value",
+      "title": "Real external economic value",
+      "owner": "MARKET",
+      "metric": "verified_external_wins",
+      "baseline": 0,
+      "current": 0,
+      "target": 3,
+      "status": "active",
+      "verifier_cmd": "python scripts/business_market_review.py",
+      "evidence_path": "Owner's Inbox/reports/ATLAS-MARKET-REVIEW.md"
+    },
+    {
+      "id": "interop_replay",
+      "title": "Third-party replayable interop proof",
+      "owner": "VERIFY",
+      "metric": "bidirectional_verified_receipts",
+      "baseline": 1,
+      "current": 1,
+      "target": 3,
+      "status": "active",
+      "verifier_cmd": "python scripts/business_full_validation.py run",
+      "evidence_path": "Owner's Inbox/evidence/ATLAS-INTEROP-RECEIPT.md"
+    }
+  ]
+}

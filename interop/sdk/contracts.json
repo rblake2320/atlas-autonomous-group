@@ -1,0 +1,20 @@
+{
+  "contracts": [
+    {
+      "name": "sdk_registry_contract",
+      "required_keys": ["name", "owner", "purpose", "runtime_profile", "status", "entrypoint", "reviewed_by"],
+      "allowed_status": ["registered", "experimental", "disabled"],
+      "owner_must_exist_in_roster": true
+    },
+    {
+      "name": "runtime_profile_contract",
+      "required_profiles": ["cloud_api", "cli_subscription", "local_llm", "local_slm"],
+      "owners_must_exist_in_roster": true
+    },
+    {
+      "name": "a2a_card_contract",
+      "required_keys": ["name", "description", "department", "reports_to", "url", "skills", "inputModes", "outputModes"],
+      "url_scheme": "a2a://"
+    }
+  ]
+}
